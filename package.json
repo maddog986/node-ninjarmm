@@ -1,0 +1,32 @@
+{
+  "name": "node-ninjarmm",
+  "version": "1.0.0",
+  "description": "NinjaRMM Node API Client",
+  "author": {
+    "name": "Drew Gauderman",
+    "email": "drew@dpg.host",
+    "url": "https://github.com/maddog986"
+  },
+  "homepage": "https://github.com/maddog986/node-ninjarmm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddog986/node-ninjarmm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maddog986/node-ninjarmm/issues"
+  },
+  "license": "MIT",
+  "main": "./ninjarmm.js",
+  "scripts": {
+    "start": "nodemon test/index.js localhost 8080"
+  },
+  "keywords": ["ninjarmm"],
+  "dependencies": {
+    "request": "2.88.0",
+    "crypto": "1.0.1"
+  },
+  "devDependencies": {
+    "@types/request": "2.48.1",
+    "nodemon": "1.18.10"
+  }
+}
