@@ -1,4 +1,4 @@
-# NinjaRMM Node Module
+# NinjaRMM API Node Module
 
 This is an unofficial [NinjaRMM](https://ninjarmm.com)'s [API](https://ninjaresources.s3.amazonaws.com/PublicApi/0.1.2/NinjaRMM%20Public%20API%20v0.1.2.pdf) Node client.
 
@@ -15,7 +15,7 @@ npm install node-ninjarmm
 First you need to instantiate it.
 
 ```javascript
-const NinjaRMM = require('../ninjarmm.js');
+const NinjaRMM = require('node-ninjarmm');
 
 const ninjaClient = new NinjaRMM({
   private: 'PRIVATE KEY',
