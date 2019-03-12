@@ -18,12 +18,13 @@
   "license": "MIT",
   "main": "./ninjarmm.js",
   "scripts": {
-    "start": "nodemon test/index.js localhost 8080"
+    "debug": "nodemon test/index.js"
   },
-  "keywords": ["ninjarmm"],
+  "keywords": [
+    "ninjarmm"
+  ],
   "dependencies": {
-    "request": "2.88.0",
-    "crypto": "1.0.1"
+    "request": "2.88.0"
   },
   "devDependencies": {
     "@types/request": "2.48.1",

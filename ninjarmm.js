@@ -94,8 +94,7 @@ module.exports = class NinjaRMM {
     }
 
     //if not callback function then returns a promise
-    return this.modem(
-      {
+    return this.modem({
         endpoint: endpoint, //the api endpoint
         ...opts //all extra options that may be passed in
       },
