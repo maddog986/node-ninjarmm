@@ -26,7 +26,7 @@ nClient
   .catch(err => console.log('ERROR:', err));
 
 //get devices example using a callback function
-nClient.get('devices', function(err, devices) {
+nClient.get('devices', function (err, res, devices) {
   if (err) return console.log('ERROR', err);
 
   console.log('devices', devices);

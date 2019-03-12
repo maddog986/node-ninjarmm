@@ -17,9 +17,7 @@
   },
   "license": "MIT",
   "main": "./ninjarmm.js",
-  "scripts": {
-    "debug": "nodemon test/index.js"
-  },
+  "scripts": {},
   "keywords": [
     "ninjarmm"
   ],
